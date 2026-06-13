@@ -1,6 +1,6 @@
-# Aprendizaje por Refuerzo con Atari 2600 🎮🤖
+# Aprendizaje por Refuerzo con Atari 2600 
 
-## 📋 Descripción
+## Descripción
 
 Proyecto educativo de **Machine Learning** que implementa un agente de **Aprendizaje por Refuerzo (RL)** para dominar juegos clásicos del **Atari 2600** usando algoritmos modernos de IA. Este repositorio es un estudio práctico completo sobre cómo entrenar agentes inteligentes desde cero.
 
@@ -19,7 +19,7 @@ Este proyecto es ideal para:
 
 ---
 
-## 🎯 Objetivos del Proyecto
+## Objetivos del Proyecto
 
 1. **Comprender Reinforcement Learning** desde los conceptos fundamentales hasta técnicas avanzadas
 2. **Seleccionar y caracterizar** un entorno de juego del Atari 2600
@@ -31,15 +31,15 @@ Este proyecto es ideal para:
 
 ---
 
-## 🎮 Juego Seleccionado: Space Invaders
+## Juego Seleccionado: Space Invaders
 
 ### Descripción
 **Space Invaders** es uno de los juegos más icónicos del Atari 2600. El jugador controla una nave espacial en la parte inferior de la pantalla con el objetivo de disparar a oleadas de alienígenas antes de que lleguen al suelo.
 
 ### Cómo se consigue puntuación
-- 🎯 **Eliminar aliens:** Los aliens de filas superiores valen más puntos
-- 🛸 **OVNI especial:** Aparece ocasionalmente y otorga puntos extra
-- ⚡ **Bonus por oleadas:** Cada oleada eliminada incrementa la dificultad
+-  **Eliminar aliens:** Los aliens de filas superiores valen más puntos
+-  **OVNI especial:** Aparece ocasionalmente y otorga puntos extra
+-  **Bonus por oleadas:** Cada oleada eliminada incrementa la dificultad
 
 ### Objetivos del Juego
 | Aspecto | Descripción |
@@ -61,7 +61,7 @@ Este proyecto es ideal para:
 
 ---
 
-## 🛠️ Tecnologías y Dependencias
+##  Tecnologías y Dependencias
 
 ### Principales
 ```python
@@ -110,7 +110,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📚 Estructura del Repositorio
+##  Estructura del Repositorio
 
 ```
 Reinforced-Learning-amb-Atari-2600/
@@ -140,7 +140,7 @@ Reinforced-Learning-amb-Atari-2600/
 
 ---
 
-## 🚀 Guía de Inicio Rápido
+##  Guía de Inicio Rápido
 
 ### Opción 1: Google Colab (Recomendado ⭐)
 
@@ -193,7 +193,7 @@ jupyter notebook Reinforced_Learning_amb_Atari_2600_GuzmanWilliam.ipynb
 
 ---
 
-## 📖 Uso y Ejemplos
+##  Uso y Ejemplos
 
 ### 1. Crear Entorno del Juego
 
@@ -352,7 +352,7 @@ plt.show()
 
 ---
 
-## 📊 Arquitectura de la Red Neuronal
+##  Arquitectura de la Red Neuronal
 
 ### Política CNN de Stable Baselines3
 
@@ -421,7 +421,7 @@ Entorno              Agente
 
 ---
 
-## 🔬 Técnicas de Optimización Utilizadas
+##  Técnicas de Optimización Utilizadas
 
 ### 1. Frame Stacking
 ```python
@@ -480,7 +480,7 @@ env = VecNormalize(env, norm_obs=True, norm_reward=True)
 
 ---
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 ### Error: `gym.error.NamespaceNotFound: Namespace 'ALE' not found`
 ```python
@@ -518,7 +518,7 @@ model = PPO("CnnPolicy", env,
 
 ---
 
-## 📚 Recursos y Referencias
+##  Recursos y Referencias
 
 ### Teoría de RL
 - [OpenAI Spinning Up in Deep RL](https://spinningup.openai.com/) - Excelente introducción
@@ -543,24 +543,7 @@ model = PPO("CnnPolicy", env,
 
 ---
 
-## 📈 Progreso del Proyecto
-
-- [x] Configuración del entorno Atari 2600
-- [x] Exploración de acciones y recompensas
-- [x] Implementación de juego manual
-- [x] Entrenamiento básico con PPO
-- [x] Optimización con frame stacking
-- [x] Ajuste de hiperparámetros
-- [x] Evaluación del agente entrenado
-- [ ] Implementar DQN como comparación
-- [ ] Agregar visualización de atención
-- [ ] Entrenar en múltiples juegos Atari
-- [ ] Crear dashboard de monitoreo en tiempo real
-- [ ] Exportar modelo para inferencia en tiempo real
-
----
-
-## 👥 Contribuciones
+##  Contribuciones
 
 ¡Contribuciones son bienvenidas! Si quieres mejorar este proyecto:
 
@@ -607,13 +590,12 @@ de este software para usarlo con fines educativos y de investigación.
 
 ---
 
-## 👨‍💻 Autor
+##  Autor
 
 **William Guzmán** | Machine Learning & Game AI Enthusiast
 
 - 🔗 **GitHub:** [@williamG7](https://github.com/williamG7)
 - 📧 **Email:** contacto@williamguzman.dev
-- 💼 **Intereses:** RL, Game AI, Deep Learning, Computer Vision
 
 ---
 
