@@ -595,7 +595,6 @@ de este software para usarlo con fines educativos y de investigación.
 **William Guzmán** | Machine Learning & Game AI Enthusiast
 
 - 🔗 **GitHub:** [@williamG7](https://github.com/williamG7)
-- 📧 **Email:** contacto@williamguzman.dev
 
 ---
 
@@ -639,10 +638,6 @@ Si te resultó útil:
 - Domina la mecánica del juego
 - Recompensa promedio: ~300+ puntos
 - Estrategia clara y consistente
-
----
-
-**Última actualización:** Junio 2024 | **Versión:** 1.0.0
 
 ---
 
